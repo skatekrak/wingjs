@@ -17,7 +17,7 @@ wing.Item.find((response, error) => {
 ## Documention
 #### User
 ```javascript
-//get yourself
+//Get yourself
 wing.User.me(callback)
 
 //Create new user
