@@ -1,8 +1,8 @@
 {
   "name": "wingjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "API wrapper for wing.eu",
-  "main": "index.js",
+  "main": "lib/wing.js",
   "repository": {
     "url": "https://johnoppenheimer@github.com/skatekrak/wingjs.git",
     "type": "git"
