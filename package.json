@@ -1,6 +1,6 @@
 {
   "name": "wingjs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "API wrapper for wing.eu",
   "main": "lib/wing.js",
   "repository": {
@@ -10,6 +10,6 @@
   "author": "Maxime <maximecattet@gmx.com>",
   "license": "MIT",
   "dependencies": {
-    "got": "^6.6.3"
+    "node-fetch": "^1.7.3"
   }
 }
