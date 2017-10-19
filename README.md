@@ -4,6 +4,8 @@ API wrapper for wing.eu
 ## Install
 `npm install --save wingjs`
 
+The callbacks are optional, all functions return a Promise.
+
 ## Example
 ```javascript
 const Wing = require('wingjs')
@@ -12,6 +14,15 @@ const wing = new Wing("WING_API_ID", "WING_API_SECRET")
 wing.Item.find((response, error) => {
     console.log(error || response)
 })
+
+// OR
+wing.Item.find()
+    .then(response => {
+        console.log(response);
+    })
+    .catch(error => {
+        console.error(error);
+    })
 ```
 
 ## Documention
